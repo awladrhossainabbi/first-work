@@ -1,0 +1,1044 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+*{ margin: 0px;  padding:0px;}
+
+
+body{
+font-family: 'Roboto', sans-serif;
+font-size:15px;
+}
+
+.HeaderWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Menubar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ul.list-item {
+    display: flex;
+}
+
+ul.list-item li a {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 25px;
+    font-size: 18px;
+    transition: .3s;
+    border-top: 2px solid transparent;
+}
+ul.list-item li:first-child a {
+    color: red;
+    border-top: 2px solid red;
+}
+ul.list-item li {list-style: none;padding: 33px 0px;}
+
+ul.list-item li a:hover {
+    color: red;
+    border-top: 2px solid red;
+}
+
+.TopBarColor {
+    width: 100%;
+    height: 10px;
+    display: flex;
+}
+
+span {
+    width: 25%;
+    background: #ff5200;
+}
+
+.TopBarColor span:nth-child(2) {
+    background: #000080ad;
+}
+
+.TopBarColor span:nth-child(3) {background: cornflowerblue;}
+
+.TopBarColor span:nth-child(4) {
+    background: chartreuse;
+}
+
+.Continer {
+    width: 1140px;
+    margin: auto;
+}
+
+.HeaderWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Menubar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ul.list-item {
+    display: flex;
+}
+
+ul.list-item li a {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 25px;
+    font-size: 18px;
+    transition: .3s;
+    border-top: 2px solid transparent;
+}
+
+ul.list-item li {list-style: none;padding: 33px 0px;}
+
+ul.list-item li a:hover {
+    color: red;
+    border-top: 2px solid red;
+}
+
+section.IntroPart {
+    width: 100%;
+    background: #161638;
+    color: white;
+    padding: 100px 0px;
+}
+
+.IntroWrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.IntroWrapper h3 {
+    color: #19d092;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Roboto';
+}
+
+.IntroWrapper h1 {
+    font-size: 35px;
+    margin-top: 5px;
+}
+
+.IntroWrapper p {
+    color: darkgray;
+    width: 700px;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.IntroWrapper button {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    background: #19d092;
+    border-radius: 3px;
+    transition: .3s;
+}
+
+.IntroWrapper button a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 2;
+    transition: .3s;
+}
+
+.IntroWrapper button:hover a {
+    color: #333;
+}
+
+.IntroWrapper button:hover {
+    background: #ff5200;
+}
+
+
+
+
+.PricecardWrapper {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    padding-top: 100px;
+    margin-bottom: 70px;
+    flex-direction: row;
+}
+
+.SinglePriceCard {
+    width: 33.33%;
+    text-align: center;
+    padding: 20px;
+    margin-right: 30px;
+    background: cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.SinglePriceCard:last-child {margin-right: 0px;}
+
+.PC-Icon {
+    width: 90px;
+    height: 90px;
+    border: 3px solid white;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: -60px;
+    color: white;
+    font-size: 25px;
+}
+
+.MainCard {
+    position: relative;
+    padding-top: 60px;
+    color: white;
+}
+
+.SinglePriceCard:first-child {
+    background: #19d092;
+}
+.SinglePriceCard:nth-child(2) {
+    background: #ff8d57f2;
+}
+.SinglePriceCard:nth-child(3) {
+    background: #161638;
+}
+
+
+
+
+.PC-Icon:first-child {
+    background: #19d092 ;
+}
+
+#SecondColor{
+    background: #ff8d57f2 !important;
+}
+
+#ThirdColor{
+    background: #161638;
+}
+
+.BigBar {
+    width: 70px;
+    height: 1px;
+    background: white;
+    margin: auto;
+    margin-top: -10px;
+}
+
+.Smallbar {
+    width: 45px;
+    height: 1px;
+    background: white;
+    display: block;
+    margin: auto;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+.MainCard h4 {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.MainCard p {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
+
+
+section.VdioPart {
+    width: 100%;
+    background: #06CA75;
+    padding: 100px 0px;
+    overflow: hidden;
+}
+.VDO-Wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.VDO-Intro {
+    width: 50%;
+    overflow: hidden;
+    color: white;
+    font-size: 18px;
+}
+
+.VDO-Intro h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+.VDO-Intro h1 span {
+    color: 204768;
+    background: none;
+    font-weight: 800;
+}
+
+.VDO-Intro button {
+    width: 150px;
+    padding: 15px;
+    border: none;
+    background: #204768;
+    margin-top: 60px;
+    border-radius: 3px;
+}
+
+.VDO-Intro button a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section.Services {
+    width: 100%;
+    background: white;
+    overflow: hidden;
+    padding: 100px 0px;
+}
+
+.Service-Wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.Service-Wrapper h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: #333;
+}
+
+.Service-Wrapper p {
+    text-align: center;
+    font-size: 25px;
+    margin-top: -10px;
+    margin-bottom: 70px;
+}
+
+.ServiceMetaWrapper {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+}
+
+#Aligngment{
+    text-align: left;
+}
+.SingleMeta.Move {
+    margin-right: 44px;
+}
+
+
+.SingleMeta.Move2 {
+    margin-left: 65px;
+}
+
+.SingleMeta.Move3 {
+    margin-left: 53px;
+    margin-top: 56px;
+}
+
+.SingleMeta.Move4 {
+    margin-right: 56px;
+}
+
+.Circlebox {
+    width: 315px;
+    border: 2px solid gray;
+    border-radius: 100%;
+    border-style: dashed;
+    height: 310px;
+    padding: 10px;
+}
+
+.Circlebox1 {
+    width: 311px;
+    border: 2px solid gray;
+    border-radius: 100%;
+    border-style: dashed;
+    height: 305px;
+    margin-top: 2px;
+}
+
+.SinglemetaWrapper1 {
+    width: 525px;
+    display: flex;
+    flex-direction: column;
+    margin-right: -135px;
+    margin-top: 35px;
+    overflow: hidden;
+}
+
+.SinglemetaWrapper {
+    width: 525px;
+    display: flex;
+    flex-direction: column;
+    margin-left: -127px;
+}
+
+.SingleMeta {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.SingleMeta a{
+    margin-right: 10px;
+    overflow: hidden;
+    width: 100;
+}
+
+.SingleMeta a img {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    border-radius: 100%;
+    overflow: hidden;
+    opacity: 166%;
+}
+
+.SerciceInfo {
+    width: 88%;
+    text-align: left !important;
+    margin-right: 20px;
+}
+
+.SerciceInfo h3 {
+    font-size: 23px;
+    color: #444;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.SerciceInfo p {
+    font-size: 14px;
+    text-align: left;
+    color: #666;
+    text-align: right;
+}
+
+.SingleMeta {
+    height: 100px;
+    margin-bottom: 66px;
+}
+
+#LeftAlign{
+    text-align: right;
+}
+
+.SingleMeta:nth-child(2) p {
+    text-align: right;
+}
+
+.SingleMeta:nth-child(2) h3 {
+    text-align: right;
+}
+.SingleMeta:nth-child(4) p {
+    text-align: left;
+}
+
+.SingleMeta:nth-child(4) h3 {
+    text-align: left;
+}
+
+img#Image1 {
+    background: #05a3e0;
+}
+
+img#Image2 {
+    background: #ffd26c;
+}
+
+img#Image3 {
+    background: #ffd26c;
+}
+
+img#Image4 {
+    background: #041d4ae3;
+}
+
+
+
+
+
+
+section.SolutionPart {
+    width: 100%;
+    background: #26547c;
+    padding: 100px 0px;
+    overflow: hidden;
+}
+
+.SolutionWrapper {
+    width: 100%;
+    display: flex;
+    color: white;
+}
+
+.SolutionInfo {
+    width: 100%;
+    padding-right: 18px;
+    overflow: hidden;
+    font-size: 15px;
+}
+
+.SolutionInfo h3 {
+    font-size: 33px;
+    color: #06ca75;
+    margin-bottom: 0px;
+    font-weight: 900;
+}
+
+h3 {}
+
+.SolutionInfo h1 {
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.SolutionWrapper button {
+    background: #06ca75;
+    border: none;
+    width: 135px;
+    padding: 10px;
+    margin-top: 60px;
+    font-size: 15px;
+}
+
+.SolutionInfo button a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1.2;
+}
+
+.SolutionInfo p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #e2e2e2;
+}
+
+
+
+
+
+
+
+
+
+
+section.ProcessPart {
+    width: 100%;
+    background: #fff;
+    padding: 100px 0px;
+}
+
+.ProcessPartWrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.ProcessPartWrapper h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #444;
+    font-weight: 900;
+}
+
+
+
+.Bar {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -10px;
+    margin-bottom: 70px;
+}
+
+.ProcessBox {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.RightArrow {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+    font-weight: 400;
+    color: #777;
+}
+
+.SingleProcess {
+    width: 185px;
+    overflow: hidden;
+    color: #666;
+}
+
+.SingleProcess img {
+    width: 115px;
+    margin-bottom: 10px;
+}
+
+.SingleProcess h3 {
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+.SingleProcess p {
+    width: 100%;
+    font-size: 13px;
+}
+
+
+#Link{
+    text-align: center;
+    font-size: 40px;
+    color: #444;
+    font-weight: 900;
+
+}
+
+section.CaseStudy {
+    background: #EE476F;
+    padding: 100px 0px;
+    overflow: hidden;
+}
+
+.CaseCardBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Single.CaseCard {
+    padding: 0px;
+    width: 30%;
+    margin-right: 15px;
+    color: #555;
+}
+
+.CaseInfo {
+    background: white;
+    width: 310px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.Single.CaseCard img {
+    width: 350px;
+}
+
+.CaseInfo h3 {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.CaseInfo p {
+    color: #999;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+.Price_Card{
+    width: 100%;
+    padding:100px 0px;
+    overflow: hidden;
+}
+
+.PriceCardBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 21px;
+}
+
+.MainPriceCad {
+    background: #2b9874;
+    width: 284px;
+    border-radius: 7px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+.TopCircleBox {
+    width: 115px;
+    height: 115px;
+    margin: auto;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    margin-top: -85px;
+    background: #2b9874;
+    font-size: 22px;
+    padding: 10px;
+    margin-bottom: 45px;
+}
+
+.Card-Body {
+    width: 120;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.Card-Body h2 {
+    margin-bottom: 15px;
+    margin-left: -12px;
+}
+
+.Card-Body button {
+    width: 132px;
+    background: none;
+    border: 2px solid white;
+    margin-top: 45px;
+    padding: 7px;
+    margin-bottom: 30px;
+}
+
+.Button1:hover{
+    background: white;
+    color: #ef476f;
+    transition: .3s;
+}
+.Button1:hover a{
+    color: #ef476f;
+    transition: .3s;
+}
+
+.Button2:hover{
+    background: white;
+    transition: .3s;
+    color: #06ca75;
+}
+.Button2:hover a{
+    color: #06ca75;
+    transition: .3s;
+}
+
+.Button3:hover{
+    background: white;
+    color: #26547c;
+    transition: .3s;
+}
+.Button3:hover a{
+    color: #26547c;
+    transition: .3s;
+}
+
+
+.Card-Body button a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.TopCircleBox h1 sup {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.TopCircleBox h1 {
+    font-size: 45px;
+}
+
+.TopCircleBox h1 sub {
+    font-size: 25px;
+    margin-left: -14px;
+    display: inline-block;
+    font-weight: 400;
+}
+
+.Card-Body p {
+    font-weight: 400;
+    color: #ffffffc4;
+}
+
+.MainPriceCad:first-child {
+    background: #ef476f;
+}
+
+.MainPriceCad:nth-child(2) {
+    background: #06ca75;
+}
+
+.MainPriceCad:nth-child(3) {
+    background: #26547c;
+}
+
+#BACK-1{
+    background: #ef476f;
+}
+#BACK-2{
+    background: #06ca75;
+}
+#BACK-3{
+    background: #26547c;
+}
+
+
+
+
+
+section.TeamPart {
+    width: 100%;
+    background: #06ca75;
+    padding: 100px 0px;
+    overflow: hidden;
+}
+
+.TeamWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.PersonInfo {
+    width: 360px;
+    color: #f7f7f7f2;
+}
+
+.SinglePerson {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.SinglePerson img {
+    border-radius: 100%;
+    margin-right: 11px;
+}
+
+.PersonMeta {
+    width: 100%;
+    font-size: 21px;
+    font-weight: 900;
+    font-family: 'Roboto';
+    margin-top: 6px;
+}
+
+.PersonInfo p {
+    width: 346px;
+    line-height: 1.5;
+    font-size: 14px;
+    color: #e8e8e8;
+    font-weight: 400;
+}
+
+
+
+
+
+
+section.LatestBlog {
+    width: 100%;
+    padding: 100px 0px;
+    overflow: hidden;
+}
+
+.BlogBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.SingleBlog {
+    width: 45%;
+    color: #666;
+    overflow: hidden;
+}
+
+.SingleBlog h5 {
+    margin-bottom: 6px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.SingleBlog h1 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 900;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.SingleBlog p {
+    color: #999;
+    margin-bottom: 50px;
+}
+
+.SingleBlog button {
+    width: 150px;
+    padding: 10px;
+    background: none;
+    border: 2px solid #06ca75;
+    border-radius: 5px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.SingleBlog button a {
+    color: #06ca75;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1.2;
+    font-weight: 600;
+}
+
+.SingleBlog h1:hover {
+    color: #06ca75;
+}
+
+.SingleBlog button:hover {
+    background: #06ca75;
+}
+
+.SingleBlog button:Hover a {
+    color: white;
+}
+
+
+
+
+
+section.ContactPart {
+    background: #26547c;
+    padding: 100px 0px;
+    color: white;
+}
+
+.ContactWrapper {
+    width: 100%;
+    color: white;
+    overflow: hidden;
+}
+#Link1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.ContactBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.InputBox {
+    width: 48%;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.DoubleInputBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.InputBox input {
+    width: 48%;
+    background: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #999;
+    color: white;
+}
+
+.SingleInput {
+    width: 100%;
+    display: block;
+}
+
+.SingleInput textarea {
+    width: 100%;
+    border: 1px solid #999;
+    background: none;
+    margin-bottom: 20px;
+}
+
+.SingleInput button {
+    width: 120px;
+    padding: 10px;
+    background: none;
+    border: 1px solid #999;
+    border-radius: 1px;
+    transition: .3s;
+}
+
+.SingleInput button a {
+    color: #999;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.SingleInput button:hover {
+    background: white;
+    border: 1px solid transparent;
+}
