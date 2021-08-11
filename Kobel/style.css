@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+
+
+*{margin: 0; padding: 0;}
+
+body{
+    width: 1300px;
+    background: #f6f6f6;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: auto;
+}
+
+section{
+    padding: 70px 0px;
+}
+
+.Continer{
+    width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    box-shadow: 1px 1px 95px 3px rgb(206 206 206);
+}
+
+
+
+
+.NavBar {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0px;
+    background: white;
+}
+
+.NavBar img {margin-left: 100px;}
+
+.NavBar i {
+    width: 250px;
+    font-size: 15px;
+    color: #333;
+}
+
+.HeaderInfo{
+    width: 100%;
+    background:linear-gradient(to bottom, rgba(27, 27, 27, 0.52), rgba(71, 67, 70, 0.73)),
+    url('Image/bg-header1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-evenly;
+}
+
+.HeaderMeta {
+    width: 315px;
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+}
+
+.HeaderMeta p {
+    font-size: 14px;
+    letter-spacing: 2;
+    font-weight: 600;
+}
+
+.Dotted  {
+    font-size: 36px;
+    margin-top: -20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #FF6363;
+    margin-left: -5px;
+}
+
+.HeaderMeta h2 {
+    font-size: 30px;
+    font-weight: 500;
+    width: 303px;
+}
+
+.HeaderMeta a {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 30px;
+    background: #FF6363;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 51px;
+    width: 125px;
+    color: white;
+    transition: .3s;
+    border: 3px solid transparent;
+}
+
+
+
+.HeaderMeta a i {font-weight: 600;margin-right: 6px;}
+
+.HeaderMeta a:hover {
+    background: #777;
+    border: 3px solid white;
+}
+
+
+
+
+
+
+
+
+.EcoWrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.EcoHeader {
+    width: 63%;
+    margin: auto;
+    text-align: center;
+    color: #444;
+    font-size: 23px;
+}
+
+.EcoHeader h1 {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.EcoHeader p {
+    font-size: 18px;
+    margin-top: 30px;
+    color: #777;
+    margin-bottom: 70px;
+}
+
+.EcoCardWrapper {
+    width: 55%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.EcoCard {
+    width: 46%;
+    overflow: hidden;
+    margin-left: 30px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+.EcoCard h3 {
+    color: #555;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.EcoCard img {
+    width: 100%;
+}
+
+.EcoCard:first-child {
+    margin-left: 0px;
+}
+
+.EcoCard p {
+    padding: 20px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.EcoCard a  {
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px;
+    background: #FF6363;
+    width: 100px;
+    text-align: center;
+    padding: 12px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 500;
+    border-bottom: 3px solid #922d2d;
+    margin-bottom: 35px;
+}
+
+.EcoCard a :hover {
+    background: #777;
+    text-shadow: 0 0 black;
+    border-bottom: 3px solid lightblue;
+}
+
+
+section.Article {
+    overflow: hidden;
+    background:linear-gradient(to bottom, rgba(27, 27, 27, 0.52), rgba(71, 67, 70, 0.73)),
+    url('Image/bg-header1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ArticleWrapper {
+    width: 60%;
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.ArticlePhoto {
+    margin-right: 40px;
+    width: 45%;
+}
+
+.ArticleInfo {
+    width: 301px;
+    overflow: hidden;
+    padding-left: 20px;
+    text-align: center;
+}
+
+
+
+.ArticleInfo .Dotted {
+    text-align: center;
+    margin-left: 1px;
+    margin-bottom: 10px;
+}
+
+.ArticleInfo p {
+    font-size: 15px;
+    margin-bottom: 25px;
+    color: rgb(206, 206, 206);
+}
+
+.ArticleInfo a {
+    width: 90px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #FF6363;
+    text-align: center;
+    padding: 11px;
+    transition: .3s;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+
+.ArticleInfo h3 {
+    font-size: 22px;
+}
+
+.ArticleInfo a:hover {
+    background: #777;
+    border: 2px solid #ff6363;
+    color: #FF6363;
+}
+
+
+
+
+
+
+section.SendAndCreat {
+    background: white;
+    overflow: hidden;
+}
+
+.creatANDsendWrapper {
+    width: 100%;
+}
+
+.CratMetaWrpper {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.SingleCreat {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.CeatImg {
+    width: 32%;
+    box-sizing: border-box;
+}
+
+.CreatInfo {
+    width: 63%;
+    color: #555;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.CeatImg img {
+    width: 100%;
+    border: 1px solid #99999938;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.CeatImg p {
+    text-align: center;
+    width: 100%;
+    border: 1px solid #99999938;
+    margin-top: -3px;
+    font-style: italic;
+    font-size: 15px;
+    padding: 12px 0px;
+}
+
+.CreatInfo h2 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.CreatInfo p {
+    font-size: 18px;
+}
+
+.Brief {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.BriefImg {
+    width: 47%;
+    overflow: hidden;
+}
+
+.BriefInfo {
+    width: 45%;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, rgb(0 0 0 / 56%), rgb(21 21 21 / 55%)),    url(Image/bg-header1.png);
+    box-sizing: border-box;
+    color: white;
+    padding: 25px;
+    transition: .3s;
+}
+
+.BriefImg img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.BriefInfo h1 {
+    font-size: 31px;
+    margin-bottom: 21px;
+    margin-top: 15px;
+}
+
+.BriefInfo p {
+    font-size: 18px;
+    color: #f5f5f5;
+    margin-bottom: 50px;
+}
+
+.BriefInfo a {
+    width: 121px;
+    display: inline-block;
+    padding: 11px;
+    background: #FF6363;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    border-bottom: 3px solid #e82e2e !important;
+    transition: .3s;
+    border: 2px solid transparent;
+}
+
+.BriefInfo a:hover {
+    background: #777;
+    border: 2px solid white;
+}
+
+.BrndWrapper {
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+}
+
+.BarandHeader {
+    width: 100%;
+    overflow: hidden;
+}
+
+.BarandHeader h1 {
+    font-size: 33px;
+    padding: 17px;
+}
+
+.BarandHeader img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.BrndWrapper p {
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    color: #777;
+}
+
+.Briefwrapper2 {
+    width: 60%;
+    margin: auto;
+}
+
+footer {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+.FooterWrapper {
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.UpperFooter {
+    width: 100%;
+    background: #555;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.UpperFooter img {
+    margin-left: 100px;
+}
+
+ul.FooterIcon {
+    width: 400px;
+    overflow: hidden;
+}
+
+ul.FooterIcon a {
+    display: inline-block;
+    color: white;
+    margin-left: 5px;
+    padding-right: 15px;
+    border-right: 2px solid white;
+    text-decoration: none;
+    transition: .3s;
+}
+
+ul.FooterIcon a:hover {
+    color: #ff5200;
+}
+
+.LowerFooter {
+    width: 100%;
+    padding:15px 100px;
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+ul.LoweH-Icon {
+    width: 300px;
+    overflow: hidden;
+}
+
+ul.LoweH-Icon a {
+    color: white;
+    display: inline-block;
+    border-radius: 100%;
+    margin-right: 15px;
+    text-decoration: none;
+    background: transparent;
+}
+
+ul.LoweH-Icon p {
+    display: inline-block;
+    width: 302px;
+    text-align: left;
+}
+
+ul.LoweH-Icon p a {
+    color: white;
+}
+
+
+
+.LowerFooter p a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    border-right: 2px solid;
+    transition: .3s;
+    padding-right: 10px;
+}
+
+.LowerFooter p a:nth-child(2) {
+    border-right: none;
+}
+
+.LowerFooter p a:hover {
+    color: aquamarine;
+}
+
+ul.LoweH-Icon a i {
+    text-align: center;
+    display: grid;
+    align-items: center;
+    padding: 5px;
+}
+
+ul.LoweH-Icon a:hover {
+    background: cornflowerblue;
+}
+
+.UpperIcon {
+    width: 75px;
+    height: 74px;
+    text-align: center;
+    background: cornflowerblue;
+    align-items: center;
+    display: grid;
+    position: absolute;
+    right: 90px;
+    font-size: 31px;
+    margin-top: -78px;
+    border-radius: 100%;
+}
+
+.UpperIcon a {
+    color: navy;
+    text-align: center;
+    transition: .3s;
+}
+
+.UpperIcon a:hover {
+    color: #ff5200;
+}
